@@ -1,0 +1,60 @@
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+}
+
+.product-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.product-table tr:hover {
+    background-color: #e2e2e2;
+}
+
+.product-table button {
+    background-color: orange    ;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.product-table button:nth-child(2),
+.product-table button:nth-child(2){
+    background-color: red;
+}
+
+.product-table button:hover {
+    background-color: #45a049;
+}
+.product-table th:nth-child(2),
+.product-table td:nth-child(2) {
+    width: auto; /* Chiều rộng co dãn */
+    max-width: 500px; /* Độ rộng tối đa */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Hiển thị dấu ... khi vượt quá chiều rộng */
+    white-space: nowrap; /* Không ngắt dòng */
+}
+.product-table th,td:nth-child(3),
+.product-table th,td:nth-child(3) {
+    text-align: center;
+}
+.product-table th,td:nth-child(4),
+.product-table th,td:nth-child(4) {
+    text-align: center;
+}
+.product-table th,td:nth-child(5),
+.product-table th,td:nth-child(5) {
+    text-align: center;
+}

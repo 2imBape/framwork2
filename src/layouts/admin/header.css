@@ -1,0 +1,24 @@
+.admin-header {
+   
+    padding: 10px 0; /* Khoảng cách giữa header và nội dung */
+    width: 100%;    
+}
+
+
+.admin-header .container {
+    display: flex; /* Sử dụng flexbox để căn chỉnh header */
+    justify-content: space-between; /* Căn chỉnh các phần tử theo chiều ngang */
+   
+}
+
+.admin-header h1 {
+    margin: 0; /* Xóa khoảng cách xung quanh tiêu đề */
+}
+
+.admin-header p {
+    margin-bottom: 0; /* Xóa khoảng cách dưới cùng của đoạn văn */
+}
+
+.admin-header .col-md-6 {
+    flex: 1; /* Phần tử chiếm hết không gian có sẵn của container */
+}
