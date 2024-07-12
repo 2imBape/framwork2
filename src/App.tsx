@@ -2,7 +2,6 @@
 import './App.css'
 import ProductDetail from './pages/ProductDetail';
 import { useRoutes } from 'react-router-dom';
-import LayoutAdmin from './layouts/admin/LayoutAdmin';
 import Admin from './pages/Admin';
 import LayoutClient from './layouts/LayoutClient';
 import Homepage from './pages/Homepage';

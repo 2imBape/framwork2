@@ -1,7 +1,5 @@
-import { useEffect } from "react";
-import { Outlet, useNavigate } from "react-router-dom";
+
 import Header from "./Header";
-import Admin from "src/pages/Admin";
 
 const LayoutAdmin = () => {
   // const navigate = useNavigate();
